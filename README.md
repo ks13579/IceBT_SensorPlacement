@@ -23,13 +23,13 @@ This repository contains the following directories and files:
 
 The data used for sensor placement methods consist of borehole temperature–depth profiles simulated using a heat transfer model based on various possible surface temperature time series. The code for the heat transfer model, along with the surface temperature time series data, is organized in the `Forward_Model/` directory.
 
-We consider two sites to evaluate our results: EPICA-EDML and GRIP. The `Forward_Model/` directory includes the following subdirectories and files:
+We consider two sites to evaluate our results: EDML and GRIP. The `Forward_Model/` directory includes the following subdirectories and files:
 
 * `data/` contains the possible surface temperature time series for both sites.
 
 * `src/` holds the code and relevant parameters for the heat transfer model.
 
-* `EDML_borehole_simulation.ipynb` demonstrates how to simulate the borehole temperature profile for EPICA-EDML.
+* `EDML_borehole_simulation.ipynb` demonstrates how to simulate the borehole temperature profile for EDML.
 
 * `GRIP_borehole_simulation.ipynb` demonstrates the borehole profile simulation for GRIP.
 
@@ -57,7 +57,7 @@ The `requirements.txt` lists the Python libraries required to run the code.
 
 ### Instructions
 
-`README.md` - That’s me 🙂 Your guide to the repository, with an overview and usage instructions.
+`README.md` - That’s me! 🙂 Your guide to the repository, with an overview and usage instructions.
 
 
 
